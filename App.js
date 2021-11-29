@@ -1,18 +1,9 @@
-import React from "react"; 
-import Content from "./layouts/Content";
-import Widged from "./layouts/Widged";
-import Container from "./layouts/Container";
-import Sidebar from "./layouts/Sidebar";
+import React from 'react';
+import './App.css';
+import Form from './Form';
 
-const App = () =>{
- return (
-   <Container>
-    <Sidebar/>
-    <Content/>
-    <Widged />
-   </Container>
- );
+function App() {
+  return <Form />;
+}
 
-
-};
 export default App;
