@@ -14,7 +14,7 @@ const Form = () => {
       <div className='form-container'>
         <span className='close-btn'>×</span>
         <div className='form-content-left'>
-          <img className='form-img' src='img/music-svgrepo-com.svg' alt='spaceship' />
+        <img className='form-img' src='img/m.svg' alt='spaceship' />
         </div>
         {!isSubmitted ? (
           <FormSignup submitForm={submitForm} />

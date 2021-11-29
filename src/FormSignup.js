@@ -13,8 +13,8 @@ const FormSignup = ({ submitForm }) => {
     <div className='form-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
         <h1>
-          Signup to SUmple!
-        </h1>
+          Sign up to <b href='#'>SUmple!</b>
+        </h1>      
         <div className='form-inputs'>
           <label className='form-label'>Username</label>
           <input
@@ -67,7 +67,7 @@ const FormSignup = ({ submitForm }) => {
           Sign up
         </button>
         <span className='form-input-login'>
-          Already have an account? Login <a href='#'>here</a>
+          Already have an account? Log in <a href='#'>here</a>
         </span>
       </form>
     </div>
